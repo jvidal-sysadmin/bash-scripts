@@ -12,7 +12,7 @@ QUERY=".[] .\"prefixes\" | .[] | select(.region | contains(\"$REGION\")) | selec
 # Check if JQ is installed
 if [ ! $($WHICH jq) ]; then
 	echo "jq is not installed, please install it to use the script."
-	echo "You can install "
+	echo "This program is available in the mostly Linux distributions by official package."
 fi
 
 # Check arguments
