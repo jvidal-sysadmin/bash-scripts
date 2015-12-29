@@ -28,4 +28,4 @@ if [ -z $REGION ] || [ -z $SERVICE ]; then
 fi
 
 # MAIN
-curl -s -XGET "$AMAZON_JSON_LIST" | jq -s "$QUERY"
+curl -s -XGET "$AMAZON_JSON_LIST" | jq -s "$QUERY" | sed 's/"//g'
