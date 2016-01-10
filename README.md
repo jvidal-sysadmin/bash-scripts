@@ -4,7 +4,7 @@ My bash scripts collection I use daily.
 
 ## amazon_get_prefixes.sh
 
-Basicly, get amazon prefixes what you need parsing **REGION** and **SERVICE** using [JQ](https://stedolan.github.io/jq/).
+Basicly, get amazon prefixes what you need parsing **REGION** and **SERVICE** using [JQ](https://stedolan.github.io/jq/) inspired by this [article](https://ma.ttias.be/querying-json-data-at-the-command-line-with-jq/).
 
 Simple example:
 
